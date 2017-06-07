@@ -1,0 +1,79 @@
+<!--
+.. title: Сначала сайт, блог -  второй 
+.. slug: snachala-sait-vtoroi-blog
+.. date: 2017-06-03 11:09:54 UTC+03:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+-->
+
+<p>Я хочу, чтобы мой сайт был первым передовым именно таким - сайт, возможно, с периодической записью, постом, рецептом или тем, что у вас есть, а не блога с некоторыми статическими страницами. Способ сделать это более или менее описан в разделе Создание сайта (а не блога) с Nikola.
+  </p>
+<p>
+  Я изменяю INDEX_PATH из значения по умолчанию (" ") на "posts", так что индекс всех сообщений будет генерироваться под подкаталогом posts, а не из корня выходного каталога.
+</p>
+<pre>
+  # Final location for the main blog page and   sibling paginated pages is
+  # output / TRANSLATION[lang] / INDEX_PATH /   index-*.html
+  INDEX_PATH = "posts"
+</pre>
+<p>
+  Это дает мне свободу создавать мою собственную страницу индекса для сайта, и есть несколько способов сделать это. Возможно, самый простой подход заключается в изменении адресата страниц на  &#171;" "&#187;, поэтому все страницы перейдут непосредственно в выходной каталог.
+</p>
+<pre>
+  PAGES = (
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+)
+</pre>
+
+<p>
+Теперь мы можем создать нашу собственную домашнюю страницу
+</p>
+<pre>
+  $ nikola new_page --title=Home
+Creating New Page
+-----------------
+
+Title: Home
+Scanning posts.....done!
+[2015-04-02T10:04:58Z] INFO: new_page: Your page's text is at: pages/home.rst
+
+</pre>
+<p>
+  Поскольку нам нужен вывод, который будет называться «index.html», нам просто нужно изменить метаданные slug страницы на индекс:
+</p>
+<pre>
+  .. slug: index
+</pre>
+<div class="admonition">
+  <p class="admonition-title">
+    Важно!
+  </p>
+  <p>Если бы мы оставили INDEX_PATH = " " и установили пул нашей новой страницы в качестве индекса, Nikola не сможет решить, что генерировать как index.html в корне сайта и будет приводить следующую ошибку при построении</p>
+  <pre>
+   ERROR: Two different tasks can't have a common target.'output/index.html' is a target for render_indexes:output/index.html and render_pages:output/index.html.
+  </pre>
+</div>
+<div class="card card-outline-primary mb-3">
+  <div class="card-block">
+    <div class="card-headera">
+      <p class="card-header card-title">
+        Важно!
+      </p>
+     </div>
+
+      <p class="card-text pt-2">Если бы мы оставили INDEX_PATH = " " и установили пул нашей новой страницы в качестве индекса, Nikola не сможет решить, что генерировать как index.html в корне сайта и будет приводить следующую ошибку при построении</p>
+      <pre>
+       ERROR: Two different tasks can't have a common target.'output/index.html' is a target for render_indexes:output/index.html and render_pages:output/index.html.
+      </pre>
+    </div>
+  </div>
+
+<p>Теперь мы можем заполнить это любым желаемым контентом. Лично мне хотелось бы иметь возможность указывать существующую страницу для использования в качестве домашней страницы, а самое ближайшее для этого - использовать reStructredText .. include ::. На данный момент я задал свою страницу как свою домашнюю страницу:</p>
+<pre>
+  .. include:: pages/about.rst
+</pre>
+<p>Конечно, вы можете также добавить это с помощью другого контента, такого как Пост список.</p>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://localhost:8000/</loc>
+  <lastmod>2017-06-07T11:06:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/2017/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/about/</loc>
+  <lastmod>2017-06-06T10:34:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/about/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/archive.html</loc>
+  <lastmod>2017-06-07T11:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/</loc>
+  <lastmod>2017-06-06T05:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/cat_nikola/</loc>
+  <lastmod>2017-06-06T05:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/infektsii/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/infektsiyi/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/command/</loc>
+  <lastmod>2017-06-07T11:06:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/command/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/contacts/</loc>
+  <lastmod>2017-06-07T08:42:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/contacts/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/galleries/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/home/</loc>
+  <lastmod>2017-06-07T06:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/listings/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/</loc>
+  <lastmod>2017-06-06T06:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/a-restructuredtext-primer/</loc>
+  <lastmod>2017-06-06T06:13:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/a-restructuredtext-primer/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/navstories/</loc>
+  <lastmod>2017-06-06T05:46:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/navstories/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/snachala-sait-vtoroi-blog/</loc>
+  <lastmod>2017-06-03T08:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/spershu-sait-potim-blog/</loc>
+  <lastmod>2017-06-03T08:12:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/snachala-sait-vtoroi-blog/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/zakhvoriuvannia-shcho-peredaiutsia-statevim-shliakhom/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/</loc>
+  <lastmod>2017-06-07T11:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/2017/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/about/</loc>
+  <lastmod>2017-06-06T10:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/archive.html</loc>
+  <lastmod>2017-06-07T11:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/categories/</loc>
+  <lastmod>2017-06-06T05:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/categories/cat_nikola/</loc>
+  <lastmod>2017-06-06T05:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/categories/infektsii/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/categories/infektsiyi/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/command/</loc>
+  <lastmod>2017-06-07T11:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/contacts/</loc>
+  <lastmod>2017-06-07T08:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/galleries/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/home/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/posts/</loc>
+  <lastmod>2017-06-06T06:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/posts/a-restructuredtext-primer/</loc>
+  <lastmod>2017-06-06T06:13:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/a-restructuredtext-primer/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/</loc>
+  <lastmod>2017-06-02T06:43:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/zakhvoriuvannia-shcho-peredaiutsia-statevim-shliakhom/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/posts/navstories/</loc>
+  <lastmod>2017-06-06T05:46:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/navstories/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/ru/posts/snachala-sait-vtoroi-blog/</loc>
+  <lastmod>2017-06-03T08:10:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/spershu-sait-potim-blog/" />
+ </url>
+</urlset>

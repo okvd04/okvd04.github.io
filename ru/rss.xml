@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>ОКВД-4</title><link>http://localhost:8000/</link><description>сайт кожно-венерологического диспансера г.Лозовая</description><atom:link href="http://localhost:8000/ru/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ru</language><copyright>Contents © 2017 &lt;a href="mailto:okvd04@gmail.com"&gt;okvd04&lt;/a&gt; </copyright><lastBuildDate>Tue, 06 Jun 2017 10:30:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A reStructuredText Primer</title><link>http://localhost:8000/ru/posts/a-restructuredtext-primer/</link><dc:creator>okvd04</dc:creator><description>&lt;div&gt;&lt;p&gt;Текст ниже содержит ссылки, которые выглядят как «(quickref)». Это относительные ссылки, которые указывают на ссылку пользователя Quick reStructuredText. Если эти ссылки не работают, обратитесь к главному справочному документу.&lt;/p&gt;
+&lt;pre&gt;
+To install, run &lt;span class="text-danger"&gt;nikola plugin -i navstories&lt;/span&gt;
+&lt;/pre&gt;&lt;div class="admonition admonition-this-is-a-fake-site jumbotron col-md-6"&gt;
+&lt;p class="first admonition-title"&gt;This is a Fake Site&lt;/p&gt;
+&lt;p&gt;It pretends to be about things, but is really just an example.&lt;/p&gt;
+&lt;div class="last"&gt;&lt;a href="https://getnikola.com/" class="btn btn-primary btn-lg"&gt;Click Me!&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p class="col-md-5"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://localhost:8000/ru/posts/a-restructuredtext-primer/"&gt;Читать далее…&lt;/a&gt; (1 минут чтения осталось)&lt;/p&gt;&lt;/div&gt;</description><guid>http://localhost:8000/ru/posts/a-restructuredtext-primer/</guid><pubDate>Tue, 06 Jun 2017 06:13:13 GMT</pubDate></item><item><title>navstories</title><link>http://localhost:8000/ru/posts/navstories/</link><dc:creator>okvd04</dc:creator><description>&lt;div&gt;&lt;p&gt;Добавьте все истории в указанные местоположения в панель навигации.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+To install, run nikola plugin -i navstories
+&lt;/pre&gt;
+&lt;p&gt;Этот очень простой плагин выводит все истории на панель навигации.&lt;/p&gt;
+&lt;p&gt;Началось как доказательство концепции ConfigPlugin. По запросу в списке рассылки.&lt;/p&gt;
+&lt;p&gt;Изменено для отображения истории / страниц в иерархическую структуру в меню
+Основанный на структуре permalink (по умолчанию для структуры каталогов
+Сообщений).&lt;/p&gt;
+&lt;p&gt;Этот плагин генерирует меню и один уровень подменю (дальнейшие подвыборы отображаются в подменю первого уровня).
+ПРЕДУПРЕЖДЕНИЕ. Поддержка подменю зависит от темы.&lt;/p&gt;
+&lt;p&gt;Записи меню, вставленные навигаторами, вставляются после записей из &lt;tt class="docutils literal"&gt;NAVIGATION_LINKS&lt;/tt&gt;. Записи, перечисленные в NAVIGATION_LINKS_POST_NAVSTORIES, вставляются после записей в Navstories. Формат NAVIGATION_LINKS_POST_NAVSTORIES идентичен NAVIGATION_LINKS. Чтобы включить рассказы в меню, постоянная ссылка на историю должна начинаться с одной из строк, перечисленных в NAVSTORIES_PATHS, другие истории должны игнорироваться этим подключением. Сортировка и отображение имен в меню можно контролировать для записей верхнего уровня через NAVSTORIES_MAPPING.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+# Paths (permalink) that should be processed by navstories plugin (path starting with /&amp;lt;variable&amp;gt;/, &amp;lt;variable&amp;gt; can contain /, e.g.: stories/b
+NAVSTORIES_PATHS = {
+DEFAULT_LANG: (
+    'pages',
+    'stories',
+  ),
+}
+# Mapping "Toplevel in permalink" to "Visible text"
+# The order is as listed here, entries not listed here are included in the end, with the top level of the permalink as text
+NAVSTORIES_MAPPING = {
+  DEFAULT_LANG: (
+    # example (remove initial #):
+    #("b", "Boo"),
+    #("f", "Foo"),
+  ),
+}
+# Indention for each level deeper in a submenu, than the highest level in that submenu, the submenu is flat, so it is only the menu text there are indented
+NAVSTORIES_SUBMENU_INDENTION = '* '
+# Static menu after dynamic navstories menu entries
+# Format just as NAVIGATION_LINKS, but content included after  navstories entries
+NAVIGATION_LINKS_POST_NAVSTORIES = {
+  DEFAULT_LANG: (
+  ),
+}
+&lt;/pre&gt;
+&lt;p&gt;Чтобы исключить один пункт из меню, мы добавим следующие метаданные:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;tt class="docutils literal"&gt;.. hidefromnav: yes&lt;/tt&gt; к &lt;tt class="docutils literal"&gt;story&lt;/tt&gt;.&lt;/blockquote&gt;&lt;/div&gt;</description><guid>http://localhost:8000/ru/posts/navstories/</guid><pubDate>Tue, 06 Jun 2017 05:46:16 GMT</pubDate></item><item><title>Сначала сайт, блог -  второй</title><link>http://localhost:8000/ru/posts/snachala-sait-vtoroi-blog/</link><dc:creator>okvd04</dc:creator><description>&lt;p&gt;Я хочу, чтобы мой сайт был первым передовым именно таким - сайт, возможно, с периодической записью, постом, рецептом или тем, что у вас есть, а не блога с некоторыми статическими страницами. Способ сделать это более или менее описан в разделе Создание сайта (а не блога) с Nikola.
+  &lt;/p&gt;
+&lt;p&gt;
+  Я изменяю INDEX_PATH из значения по умолчанию (" ") на "posts", так что индекс всех сообщений будет генерироваться под подкаталогом posts, а не из корня выходного каталога.
+&lt;/p&gt;
+&lt;pre&gt;
+  # Final location for the main blog page and   sibling paginated pages is
+  # output / TRANSLATION[lang] / INDEX_PATH /   index-*.html
+  INDEX_PATH = "posts"
+&lt;/pre&gt;
+&lt;p&gt;
+  Это дает мне свободу создавать мою собственную страницу индекса для сайта, и есть несколько способов сделать это. Возможно, самый простой подход заключается в изменении адресата страниц на  «" "», поэтому все страницы перейдут непосредственно в выходной каталог.
+&lt;/p&gt;
+&lt;pre&gt;
+  PAGES = (
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+)
+&lt;/pre&gt;
+
+&lt;p&gt;
+Теперь мы можем создать нашу собственную домашнюю страницу
+&lt;/p&gt;
+&lt;pre&gt;
+  $ nikola new_page --title=Home
+Creating New Page
+-----------------
+
+Title: Home
+Scanning posts.....done!
+[2015-04-02T10:04:58Z] INFO: new_page: Your page's text is at: pages/home.rst
+
+&lt;/pre&gt;
+&lt;p&gt;
+  Поскольку нам нужен вывод, который будет называться «index.html», нам просто нужно изменить метаданные slug страницы на индекс:
+&lt;/p&gt;
+&lt;pre&gt;
+  .. slug: index
+&lt;/pre&gt;
+&lt;div class="admonition"&gt;
+  &lt;p class="admonition-title"&gt;
+    Важно!
+  &lt;/p&gt;
+  &lt;p&gt;Если бы мы оставили INDEX_PATH = " " и установили пул нашей новой страницы в качестве индекса, Nikola не сможет решить, что генерировать как index.html в корне сайта и будет приводить следующую ошибку при построении&lt;/p&gt;
+  &lt;pre&gt;
+   ERROR: Two different tasks can't have a common target.'output/index.html' is a target for render_indexes:output/index.html and render_pages:output/index.html.
+  &lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="card card-outline-primary mb-3"&gt;
+  &lt;div class="card-block"&gt;
+    &lt;div class="card-headera"&gt;
+      &lt;p class="card-header card-title"&gt;
+        Важно!
+      &lt;/p&gt;
+     &lt;/div&gt;
+
+      &lt;p class="card-text pt-2"&gt;Если бы мы оставили INDEX_PATH = " " и установили пул нашей новой страницы в качестве индекса, Nikola не сможет решить, что генерировать как index.html в корне сайта и будет приводить следующую ошибку при построении&lt;/p&gt;
+      &lt;pre&gt;
+       ERROR: Two different tasks can't have a common target.'output/index.html' is a target for render_indexes:output/index.html and render_pages:output/index.html.
+      &lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Теперь мы можем заполнить это любым желаемым контентом. Лично мне хотелось бы иметь возможность указывать существующую страницу для использования в качестве домашней страницы, а самое ближайшее для этого - использовать reStructredText .. include ::. На данный момент я задал свою страницу как свою домашнюю страницу:&lt;/p&gt;
+&lt;pre&gt;
+  .. include:: pages/about.rst
+&lt;/pre&gt;
+&lt;p&gt;Конечно, вы можете также добавить это с помощью другого контента, такого как Пост список.&lt;/p&gt;</description><guid>http://localhost:8000/ru/posts/snachala-sait-vtoroi-blog/</guid><pubDate>Sat, 03 Jun 2017 08:09:54 GMT</pubDate></item><item><title>Болезни, передающиеся половым путем</title><link>http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/</link><dc:creator>okvd04</dc:creator><description>&lt;div&gt;&lt;p&gt;Заболевания, передающиеся половым путем (ЗППП) (англ. Sexually Transmitted Diseases (STDs / STD), также инфекции, передающиеся половым путем (ИППП) (англ. Sexually Transmitted Infections (STIs / STI) - инфекционных болезней, которые передаются преимущественно половым путем, на них болеют в равной степени как мужчины, так и женщины.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/"&gt;Читать далее…&lt;/a&gt; (1 минут чтения осталось)&lt;/p&gt;&lt;/div&gt;</description><category>инфекции</category><guid>http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/</guid><pubDate>Tue, 30 May 2017 08:09:31 GMT</pubDate></item></channel></rss>
