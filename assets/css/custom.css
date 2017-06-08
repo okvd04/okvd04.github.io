@@ -6973,7 +6973,7 @@ pre {
     color: white;
     text-shadow: 3px 3px 6px #4b0082;
     font-size: 2.4rem;
-    margin-bottom: 3rem; }
+    margin-bottom: 2rem; }
     @media (min-width: 768px) {
       .l-header-box__title {
         font-size: 6rem; } }
@@ -7434,8 +7434,7 @@ pre {
   margin-top: 4.5rem; }
 
 .l-story {
-  padding-top: 1rem;
-  border-bottom: dotted 4px #4b0082; }
+  padding-top: 1rem; }
 
 .l-post {
   padding-top: 4.5rem;
@@ -7443,12 +7442,12 @@ pre {
 
 /* scroll toTop*/
 .l-scroller {
+  display: none;
   position: fixed;
   bottom: 30px;
   right: 20px;
   cursor: pointer;
   /*display:none;*/
-  display: block;
   z-index: 9999;
   /*&::before {
         content: '\f139';
@@ -7461,6 +7460,9 @@ pre {
   .l-scroller:hover {
     opacity: 0.8;
     transform: scale(1.1); }
+  @media (min-width: 768px) {
+    .l-scroller {
+      display: block; } }
 
 .addthis_peekaboo_style {
   position: fixed;

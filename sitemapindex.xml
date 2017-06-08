@@ -6,47 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://localhost:8000/categories/cat_nikola.xml</loc>
-  <lastmod>2017-06-06T05:54:00Z</lastmod>
+  <loc>http://okvd04.github.io/categories/cat_nikola.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/categories/infektsii.xml</loc>
-  <lastmod>2017-06-02T06:43:00Z</lastmod>
+  <loc>http://okvd04.github.io/categories/infektsii.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/categories/infektsiyi.xml</loc>
-  <lastmod>2017-06-02T06:43:00Z</lastmod>
+  <loc>http://okvd04.github.io/categories/infektsiyi.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/galleries/rss.xml</loc>
-  <lastmod>2017-06-07T11:11:00Z</lastmod>
+  <loc>http://okvd04.github.io/galleries/rss.xml</loc>
+  <lastmod>2017-06-08T04:43:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/rss.xml</loc>
-  <lastmod>2017-06-06T06:13:00Z</lastmod>
+  <loc>http://okvd04.github.io/rss.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/ru/categories/cat_nikola.xml</loc>
-  <lastmod>2017-06-06T10:30:00Z</lastmod>
+  <loc>http://okvd04.github.io/ru/categories/cat_nikola.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/ru/categories/infektsii.xml</loc>
-  <lastmod>2017-06-02T06:43:00Z</lastmod>
+  <loc>http://okvd04.github.io/ru/categories/infektsii.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/ru/categories/infektsiyi.xml</loc>
-  <lastmod>2017-06-02T06:43:00Z</lastmod>
+  <loc>http://okvd04.github.io/ru/categories/infektsiyi.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/ru/galleries/rss.xml</loc>
-  <lastmod>2017-06-07T11:11:00Z</lastmod>
+  <loc>http://okvd04.github.io/ru/galleries/rss.xml</loc>
+  <lastmod>2017-06-08T04:43:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/ru/rss.xml</loc>
-  <lastmod>2017-06-06T10:30:00Z</lastmod>
+  <loc>http://okvd04.github.io/ru/rss.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/sitemap.xml</loc>
-  <lastmod>2017-06-07T13:06:00Z</lastmod>
+  <loc>http://okvd04.github.io/sitemap.xml</loc>
+  <lastmod>2017-06-08T04:44:00Z</lastmod>
  </sitemap>
 </sitemapindex>

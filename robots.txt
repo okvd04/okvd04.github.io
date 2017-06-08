@@ -1,4 +1,4 @@
-Sitemap: http://localhost:8000/sitemapindex.xml
+Sitemap: http://okvd04.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: localhost:8000
+Host: okvd04.github.io

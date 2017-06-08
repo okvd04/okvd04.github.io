@@ -6,159 +6,159 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://localhost:8000/</loc>
-  <lastmod>2017-06-07T11:06:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/" />
+  <loc>http://okvd04.github.io/</loc>
+  <lastmod>2017-06-07T14:33:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/" />
  </url>
  <url>
-  <loc>http://localhost:8000/2017/</loc>
+  <loc>http://okvd04.github.io/2017/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/about/</loc>
+  <loc>http://okvd04.github.io/about/</loc>
   <lastmod>2017-06-06T10:34:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/about/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/about/" />
  </url>
  <url>
-  <loc>http://localhost:8000/archive.html</loc>
-  <lastmod>2017-06-07T11:11:00Z</lastmod>
+  <loc>http://okvd04.github.io/archive.html</loc>
+  <lastmod>2017-06-08T04:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/categories/</loc>
+  <loc>http://okvd04.github.io/categories/</loc>
   <lastmod>2017-06-06T05:54:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/categories/cat_nikola/</loc>
+  <loc>http://okvd04.github.io/categories/cat_nikola/</loc>
   <lastmod>2017-06-06T05:54:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/categories/infektsii/</loc>
+  <loc>http://okvd04.github.io/categories/infektsii/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/categories/infektsiyi/</loc>
+  <loc>http://okvd04.github.io/categories/infektsiyi/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/command/</loc>
+  <loc>http://okvd04.github.io/command/</loc>
   <lastmod>2017-06-07T11:06:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/command/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/command/" />
  </url>
  <url>
-  <loc>http://localhost:8000/contacts/</loc>
+  <loc>http://okvd04.github.io/contacts/</loc>
   <lastmod>2017-06-07T08:42:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/contacts/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/contacts/" />
  </url>
  <url>
-  <loc>http://localhost:8000/galleries/</loc>
+  <loc>http://okvd04.github.io/galleries/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/home/</loc>
+  <loc>http://okvd04.github.io/home/</loc>
   <lastmod>2017-06-07T06:47:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/listings/</loc>
+  <loc>http://okvd04.github.io/listings/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/posts/</loc>
+  <loc>http://okvd04.github.io/posts/</loc>
   <lastmod>2017-06-06T06:13:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/posts/a-restructuredtext-primer/</loc>
+  <loc>http://okvd04.github.io/posts/a-restructuredtext-primer/</loc>
   <lastmod>2017-06-06T06:13:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/a-restructuredtext-primer/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/posts/a-restructuredtext-primer/" />
  </url>
  <url>
-  <loc>http://localhost:8000/posts/navstories/</loc>
+  <loc>http://okvd04.github.io/posts/navstories/</loc>
   <lastmod>2017-06-06T05:46:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/navstories/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/posts/navstories/" />
  </url>
  <url>
-  <loc>http://localhost:8000/posts/snachala-sait-vtoroi-blog/</loc>
+  <loc>http://okvd04.github.io/posts/snachala-sait-vtoroi-blog/</loc>
   <lastmod>2017-06-03T08:10:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/posts/spershu-sait-potim-blog/</loc>
+  <loc>http://okvd04.github.io/posts/spershu-sait-potim-blog/</loc>
   <lastmod>2017-06-03T08:12:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/snachala-sait-vtoroi-blog/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/posts/snachala-sait-vtoroi-blog/" />
  </url>
  <url>
-  <loc>http://localhost:8000/posts/zakhvoriuvannia-shcho-peredaiutsia-statevim-shliakhom/</loc>
+  <loc>http://okvd04.github.io/posts/zakhvoriuvannia-shcho-peredaiutsia-statevim-shliakhom/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/" />
+  <xhtml:link rel="alternate" hreflang="ru" href="http://okvd04.github.io/ru/posts/bolezni-peredayutsya-polovym-putyom/" />
  </url>
  <url>
-  <loc>http://localhost:8000/ru/</loc>
+  <loc>http://okvd04.github.io/ru/</loc>
   <lastmod>2017-06-07T11:06:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/2017/</loc>
+  <loc>http://okvd04.github.io/ru/2017/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/about/</loc>
+  <loc>http://okvd04.github.io/ru/about/</loc>
   <lastmod>2017-06-06T10:34:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/archive.html</loc>
-  <lastmod>2017-06-07T11:11:00Z</lastmod>
+  <loc>http://okvd04.github.io/ru/archive.html</loc>
+  <lastmod>2017-06-08T04:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/categories/</loc>
+  <loc>http://okvd04.github.io/ru/categories/</loc>
   <lastmod>2017-06-06T05:54:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/categories/cat_nikola/</loc>
+  <loc>http://okvd04.github.io/ru/categories/cat_nikola/</loc>
   <lastmod>2017-06-06T05:54:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/categories/infektsii/</loc>
+  <loc>http://okvd04.github.io/ru/categories/infektsii/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/categories/infektsiyi/</loc>
+  <loc>http://okvd04.github.io/ru/categories/infektsiyi/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/command/</loc>
+  <loc>http://okvd04.github.io/ru/command/</loc>
   <lastmod>2017-06-07T11:06:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/contacts/</loc>
+  <loc>http://okvd04.github.io/ru/contacts/</loc>
   <lastmod>2017-06-07T08:42:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/galleries/</loc>
+  <loc>http://okvd04.github.io/ru/galleries/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/home/</loc>
+  <loc>http://okvd04.github.io/ru/home/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/posts/</loc>
+  <loc>http://okvd04.github.io/ru/posts/</loc>
   <lastmod>2017-06-06T06:13:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/ru/posts/a-restructuredtext-primer/</loc>
+  <loc>http://okvd04.github.io/ru/posts/a-restructuredtext-primer/</loc>
   <lastmod>2017-06-06T06:13:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/a-restructuredtext-primer/" />
+  <xhtml:link rel="alternate" hreflang="uk" href="http://okvd04.github.io/posts/a-restructuredtext-primer/" />
  </url>
  <url>
-  <loc>http://localhost:8000/ru/posts/bolezni-peredayutsya-polovym-putyom/</loc>
+  <loc>http://okvd04.github.io/ru/posts/bolezni-peredayutsya-polovym-putyom/</loc>
   <lastmod>2017-06-02T06:43:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/zakhvoriuvannia-shcho-peredaiutsia-statevim-shliakhom/" />
+  <xhtml:link rel="alternate" hreflang="uk" href="http://okvd04.github.io/posts/zakhvoriuvannia-shcho-peredaiutsia-statevim-shliakhom/" />
  </url>
  <url>
-  <loc>http://localhost:8000/ru/posts/navstories/</loc>
+  <loc>http://okvd04.github.io/ru/posts/navstories/</loc>
   <lastmod>2017-06-06T05:46:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/navstories/" />
+  <xhtml:link rel="alternate" hreflang="uk" href="http://okvd04.github.io/posts/navstories/" />
  </url>
  <url>
-  <loc>http://localhost:8000/ru/posts/snachala-sait-vtoroi-blog/</loc>
+  <loc>http://okvd04.github.io/ru/posts/snachala-sait-vtoroi-blog/</loc>
   <lastmod>2017-06-03T08:10:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/posts/spershu-sait-potim-blog/" />
+  <xhtml:link rel="alternate" hreflang="uk" href="http://okvd04.github.io/posts/spershu-sait-potim-blog/" />
  </url>
 </urlset>
